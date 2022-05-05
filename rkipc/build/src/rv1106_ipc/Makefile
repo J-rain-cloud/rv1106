@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc
+CMAKE_SOURCE_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build
+CMAKE_BINARY_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc/CMakeFiles/progress.marks
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles 0
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc/CMakeFiles/progress.marks
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/clean
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/preinstall
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/preinstall
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/rv1106_ipc/CMakeFiles/rkipc.dir/rule:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/CMakeFiles/rkipc.dir/rule
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f CMakeFiles/Makefile2 src/rv1106_ipc/CMakeFiles/rkipc.dir/rule
 .PHONY : src/rv1106_ipc/CMakeFiles/rkipc.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ rkipc: src/rv1106_ipc/CMakeFiles/rkipc.dir/rule
 
 # fast build rule for target.
 rkipc/fast:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/build
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/build
 .PHONY : rkipc/fast
 
 __/__/common/common.o: __/__/common/common.c.o
@@ -177,7 +177,7 @@ __/__/common/common.o: __/__/common/common.c.o
 
 # target to build an object file
 __/__/common/common.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o
 .PHONY : __/__/common/common.c.o
 
 __/__/common/common.i: __/__/common/common.c.i
@@ -186,7 +186,7 @@ __/__/common/common.i: __/__/common/common.c.i
 
 # target to preprocess a source file
 __/__/common/common.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.i
 .PHONY : __/__/common/common.c.i
 
 __/__/common/common.s: __/__/common/common.c.s
@@ -195,7 +195,7 @@ __/__/common/common.s: __/__/common/common.c.s
 
 # target to generate assembly for a file
 __/__/common/common.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.s
 .PHONY : __/__/common/common.c.s
 
 __/__/common/event/event.o: __/__/common/event/event.c.o
@@ -204,7 +204,7 @@ __/__/common/event/event.o: __/__/common/event/event.c.o
 
 # target to build an object file
 __/__/common/event/event.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o
 .PHONY : __/__/common/event/event.c.o
 
 __/__/common/event/event.i: __/__/common/event/event.c.i
@@ -213,7 +213,7 @@ __/__/common/event/event.i: __/__/common/event/event.c.i
 
 # target to preprocess a source file
 __/__/common/event/event.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.i
 .PHONY : __/__/common/event/event.c.i
 
 __/__/common/event/event.s: __/__/common/event/event.c.s
@@ -222,7 +222,7 @@ __/__/common/event/event.s: __/__/common/event/event.c.s
 
 # target to generate assembly for a file
 __/__/common/event/event.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.s
 .PHONY : __/__/common/event/event.c.s
 
 __/__/common/isp/rv1106/isp.o: __/__/common/isp/rv1106/isp.c.o
@@ -231,7 +231,7 @@ __/__/common/isp/rv1106/isp.o: __/__/common/isp/rv1106/isp.c.o
 
 # target to build an object file
 __/__/common/isp/rv1106/isp.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o
 .PHONY : __/__/common/isp/rv1106/isp.c.o
 
 __/__/common/isp/rv1106/isp.i: __/__/common/isp/rv1106/isp.c.i
@@ -240,7 +240,7 @@ __/__/common/isp/rv1106/isp.i: __/__/common/isp/rv1106/isp.c.i
 
 # target to preprocess a source file
 __/__/common/isp/rv1106/isp.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.i
 .PHONY : __/__/common/isp/rv1106/isp.c.i
 
 __/__/common/isp/rv1106/isp.s: __/__/common/isp/rv1106/isp.c.s
@@ -249,7 +249,7 @@ __/__/common/isp/rv1106/isp.s: __/__/common/isp/rv1106/isp.c.s
 
 # target to generate assembly for a file
 __/__/common/isp/rv1106/isp.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.s
 .PHONY : __/__/common/isp/rv1106/isp.c.s
 
 __/__/common/network/Hostapd.o: __/__/common/network/Hostapd.c.o
@@ -258,7 +258,7 @@ __/__/common/network/Hostapd.o: __/__/common/network/Hostapd.c.o
 
 # target to build an object file
 __/__/common/network/Hostapd.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o
 .PHONY : __/__/common/network/Hostapd.c.o
 
 __/__/common/network/Hostapd.i: __/__/common/network/Hostapd.c.i
@@ -267,7 +267,7 @@ __/__/common/network/Hostapd.i: __/__/common/network/Hostapd.c.i
 
 # target to preprocess a source file
 __/__/common/network/Hostapd.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.i
 .PHONY : __/__/common/network/Hostapd.c.i
 
 __/__/common/network/Hostapd.s: __/__/common/network/Hostapd.c.s
@@ -276,7 +276,7 @@ __/__/common/network/Hostapd.s: __/__/common/network/Hostapd.c.s
 
 # target to generate assembly for a file
 __/__/common/network/Hostapd.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.s
 .PHONY : __/__/common/network/Hostapd.c.s
 
 __/__/common/network/RK_encode.o: __/__/common/network/RK_encode.c.o
@@ -285,7 +285,7 @@ __/__/common/network/RK_encode.o: __/__/common/network/RK_encode.c.o
 
 # target to build an object file
 __/__/common/network/RK_encode.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o
 .PHONY : __/__/common/network/RK_encode.c.o
 
 __/__/common/network/RK_encode.i: __/__/common/network/RK_encode.c.i
@@ -294,7 +294,7 @@ __/__/common/network/RK_encode.i: __/__/common/network/RK_encode.c.i
 
 # target to preprocess a source file
 __/__/common/network/RK_encode.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.i
 .PHONY : __/__/common/network/RK_encode.c.i
 
 __/__/common/network/RK_encode.s: __/__/common/network/RK_encode.c.s
@@ -303,7 +303,7 @@ __/__/common/network/RK_encode.s: __/__/common/network/RK_encode.c.s
 
 # target to generate assembly for a file
 __/__/common/network/RK_encode.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.s
 .PHONY : __/__/common/network/RK_encode.c.s
 
 __/__/common/network/Rk_wifi.o: __/__/common/network/Rk_wifi.c.o
@@ -312,7 +312,7 @@ __/__/common/network/Rk_wifi.o: __/__/common/network/Rk_wifi.c.o
 
 # target to build an object file
 __/__/common/network/Rk_wifi.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o
 .PHONY : __/__/common/network/Rk_wifi.c.o
 
 __/__/common/network/Rk_wifi.i: __/__/common/network/Rk_wifi.c.i
@@ -321,7 +321,7 @@ __/__/common/network/Rk_wifi.i: __/__/common/network/Rk_wifi.c.i
 
 # target to preprocess a source file
 __/__/common/network/Rk_wifi.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.i
 .PHONY : __/__/common/network/Rk_wifi.c.i
 
 __/__/common/network/Rk_wifi.s: __/__/common/network/Rk_wifi.c.s
@@ -330,7 +330,7 @@ __/__/common/network/Rk_wifi.s: __/__/common/network/Rk_wifi.c.s
 
 # target to generate assembly for a file
 __/__/common/network/Rk_wifi.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.s
 .PHONY : __/__/common/network/Rk_wifi.c.s
 
 __/__/common/network/gbk_to_utf8.o: __/__/common/network/gbk_to_utf8.c.o
@@ -339,7 +339,7 @@ __/__/common/network/gbk_to_utf8.o: __/__/common/network/gbk_to_utf8.c.o
 
 # target to build an object file
 __/__/common/network/gbk_to_utf8.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o
 .PHONY : __/__/common/network/gbk_to_utf8.c.o
 
 __/__/common/network/gbk_to_utf8.i: __/__/common/network/gbk_to_utf8.c.i
@@ -348,7 +348,7 @@ __/__/common/network/gbk_to_utf8.i: __/__/common/network/gbk_to_utf8.c.i
 
 # target to preprocess a source file
 __/__/common/network/gbk_to_utf8.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.i
 .PHONY : __/__/common/network/gbk_to_utf8.c.i
 
 __/__/common/network/gbk_to_utf8.s: __/__/common/network/gbk_to_utf8.c.s
@@ -357,7 +357,7 @@ __/__/common/network/gbk_to_utf8.s: __/__/common/network/gbk_to_utf8.c.s
 
 # target to generate assembly for a file
 __/__/common/network/gbk_to_utf8.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.s
 .PHONY : __/__/common/network/gbk_to_utf8.c.s
 
 __/__/common/network/network.o: __/__/common/network/network.c.o
@@ -366,7 +366,7 @@ __/__/common/network/network.o: __/__/common/network/network.c.o
 
 # target to build an object file
 __/__/common/network/network.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o
 .PHONY : __/__/common/network/network.c.o
 
 __/__/common/network/network.i: __/__/common/network/network.c.i
@@ -375,7 +375,7 @@ __/__/common/network/network.i: __/__/common/network/network.c.i
 
 # target to preprocess a source file
 __/__/common/network/network.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.i
 .PHONY : __/__/common/network/network.c.i
 
 __/__/common/network/network.s: __/__/common/network/network.c.s
@@ -384,7 +384,7 @@ __/__/common/network/network.s: __/__/common/network/network.c.s
 
 # target to generate assembly for a file
 __/__/common/network/network.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.s
 .PHONY : __/__/common/network/network.c.s
 
 __/__/common/network/utf8_to_gbk.o: __/__/common/network/utf8_to_gbk.c.o
@@ -393,7 +393,7 @@ __/__/common/network/utf8_to_gbk.o: __/__/common/network/utf8_to_gbk.c.o
 
 # target to build an object file
 __/__/common/network/utf8_to_gbk.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o
 .PHONY : __/__/common/network/utf8_to_gbk.c.o
 
 __/__/common/network/utf8_to_gbk.i: __/__/common/network/utf8_to_gbk.c.i
@@ -402,7 +402,7 @@ __/__/common/network/utf8_to_gbk.i: __/__/common/network/utf8_to_gbk.c.i
 
 # target to preprocess a source file
 __/__/common/network/utf8_to_gbk.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.i
 .PHONY : __/__/common/network/utf8_to_gbk.c.i
 
 __/__/common/network/utf8_to_gbk.s: __/__/common/network/utf8_to_gbk.c.s
@@ -411,7 +411,7 @@ __/__/common/network/utf8_to_gbk.s: __/__/common/network/utf8_to_gbk.c.s
 
 # target to generate assembly for a file
 __/__/common/network/utf8_to_gbk.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.s
 .PHONY : __/__/common/network/utf8_to_gbk.c.s
 
 __/__/common/network/utility.o: __/__/common/network/utility.c.o
@@ -420,7 +420,7 @@ __/__/common/network/utility.o: __/__/common/network/utility.c.o
 
 # target to build an object file
 __/__/common/network/utility.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o
 .PHONY : __/__/common/network/utility.c.o
 
 __/__/common/network/utility.i: __/__/common/network/utility.c.i
@@ -429,7 +429,7 @@ __/__/common/network/utility.i: __/__/common/network/utility.c.i
 
 # target to preprocess a source file
 __/__/common/network/utility.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.i
 .PHONY : __/__/common/network/utility.c.i
 
 __/__/common/network/utility.s: __/__/common/network/utility.c.s
@@ -438,7 +438,7 @@ __/__/common/network/utility.s: __/__/common/network/utility.c.s
 
 # target to generate assembly for a file
 __/__/common/network/utility.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.s
 .PHONY : __/__/common/network/utility.c.s
 
 __/__/common/osd/bmp_reader.o: __/__/common/osd/bmp_reader.c.o
@@ -447,7 +447,7 @@ __/__/common/osd/bmp_reader.o: __/__/common/osd/bmp_reader.c.o
 
 # target to build an object file
 __/__/common/osd/bmp_reader.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o
 .PHONY : __/__/common/osd/bmp_reader.c.o
 
 __/__/common/osd/bmp_reader.i: __/__/common/osd/bmp_reader.c.i
@@ -456,7 +456,7 @@ __/__/common/osd/bmp_reader.i: __/__/common/osd/bmp_reader.c.i
 
 # target to preprocess a source file
 __/__/common/osd/bmp_reader.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.i
 .PHONY : __/__/common/osd/bmp_reader.c.i
 
 __/__/common/osd/bmp_reader.s: __/__/common/osd/bmp_reader.c.s
@@ -465,7 +465,7 @@ __/__/common/osd/bmp_reader.s: __/__/common/osd/bmp_reader.c.s
 
 # target to generate assembly for a file
 __/__/common/osd/bmp_reader.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.s
 .PHONY : __/__/common/osd/bmp_reader.c.s
 
 __/__/common/osd/color_table.o: __/__/common/osd/color_table.c.o
@@ -474,7 +474,7 @@ __/__/common/osd/color_table.o: __/__/common/osd/color_table.c.o
 
 # target to build an object file
 __/__/common/osd/color_table.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o
 .PHONY : __/__/common/osd/color_table.c.o
 
 __/__/common/osd/color_table.i: __/__/common/osd/color_table.c.i
@@ -483,7 +483,7 @@ __/__/common/osd/color_table.i: __/__/common/osd/color_table.c.i
 
 # target to preprocess a source file
 __/__/common/osd/color_table.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.i
 .PHONY : __/__/common/osd/color_table.c.i
 
 __/__/common/osd/color_table.s: __/__/common/osd/color_table.c.s
@@ -492,7 +492,7 @@ __/__/common/osd/color_table.s: __/__/common/osd/color_table.c.s
 
 # target to generate assembly for a file
 __/__/common/osd/color_table.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.s
 .PHONY : __/__/common/osd/color_table.c.s
 
 __/__/common/osd/draw_paint.o: __/__/common/osd/draw_paint.c.o
@@ -501,7 +501,7 @@ __/__/common/osd/draw_paint.o: __/__/common/osd/draw_paint.c.o
 
 # target to build an object file
 __/__/common/osd/draw_paint.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o
 .PHONY : __/__/common/osd/draw_paint.c.o
 
 __/__/common/osd/draw_paint.i: __/__/common/osd/draw_paint.c.i
@@ -510,7 +510,7 @@ __/__/common/osd/draw_paint.i: __/__/common/osd/draw_paint.c.i
 
 # target to preprocess a source file
 __/__/common/osd/draw_paint.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.i
 .PHONY : __/__/common/osd/draw_paint.c.i
 
 __/__/common/osd/draw_paint.s: __/__/common/osd/draw_paint.c.s
@@ -519,7 +519,7 @@ __/__/common/osd/draw_paint.s: __/__/common/osd/draw_paint.c.s
 
 # target to generate assembly for a file
 __/__/common/osd/draw_paint.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.s
 .PHONY : __/__/common/osd/draw_paint.c.s
 
 __/__/common/osd/font_factory.o: __/__/common/osd/font_factory.c.o
@@ -528,7 +528,7 @@ __/__/common/osd/font_factory.o: __/__/common/osd/font_factory.c.o
 
 # target to build an object file
 __/__/common/osd/font_factory.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o
 .PHONY : __/__/common/osd/font_factory.c.o
 
 __/__/common/osd/font_factory.i: __/__/common/osd/font_factory.c.i
@@ -537,7 +537,7 @@ __/__/common/osd/font_factory.i: __/__/common/osd/font_factory.c.i
 
 # target to preprocess a source file
 __/__/common/osd/font_factory.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.i
 .PHONY : __/__/common/osd/font_factory.c.i
 
 __/__/common/osd/font_factory.s: __/__/common/osd/font_factory.c.s
@@ -546,7 +546,7 @@ __/__/common/osd/font_factory.s: __/__/common/osd/font_factory.c.s
 
 # target to generate assembly for a file
 __/__/common/osd/font_factory.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.s
 .PHONY : __/__/common/osd/font_factory.c.s
 
 __/__/common/osd/osd.o: __/__/common/osd/osd.c.o
@@ -555,7 +555,7 @@ __/__/common/osd/osd.o: __/__/common/osd/osd.c.o
 
 # target to build an object file
 __/__/common/osd/osd.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o
 .PHONY : __/__/common/osd/osd.c.o
 
 __/__/common/osd/osd.i: __/__/common/osd/osd.c.i
@@ -564,7 +564,7 @@ __/__/common/osd/osd.i: __/__/common/osd/osd.c.i
 
 # target to preprocess a source file
 __/__/common/osd/osd.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.i
 .PHONY : __/__/common/osd/osd.c.i
 
 __/__/common/osd/osd.s: __/__/common/osd/osd.c.s
@@ -573,7 +573,7 @@ __/__/common/osd/osd.s: __/__/common/osd/osd.c.s
 
 # target to generate assembly for a file
 __/__/common/osd/osd.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.s
 .PHONY : __/__/common/osd/osd.c.s
 
 __/__/common/param/dictionary.o: __/__/common/param/dictionary.c.o
@@ -582,7 +582,7 @@ __/__/common/param/dictionary.o: __/__/common/param/dictionary.c.o
 
 # target to build an object file
 __/__/common/param/dictionary.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o
 .PHONY : __/__/common/param/dictionary.c.o
 
 __/__/common/param/dictionary.i: __/__/common/param/dictionary.c.i
@@ -591,7 +591,7 @@ __/__/common/param/dictionary.i: __/__/common/param/dictionary.c.i
 
 # target to preprocess a source file
 __/__/common/param/dictionary.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.i
 .PHONY : __/__/common/param/dictionary.c.i
 
 __/__/common/param/dictionary.s: __/__/common/param/dictionary.c.s
@@ -600,7 +600,7 @@ __/__/common/param/dictionary.s: __/__/common/param/dictionary.c.s
 
 # target to generate assembly for a file
 __/__/common/param/dictionary.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.s
 .PHONY : __/__/common/param/dictionary.c.s
 
 __/__/common/param/iniparser.o: __/__/common/param/iniparser.c.o
@@ -609,7 +609,7 @@ __/__/common/param/iniparser.o: __/__/common/param/iniparser.c.o
 
 # target to build an object file
 __/__/common/param/iniparser.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o
 .PHONY : __/__/common/param/iniparser.c.o
 
 __/__/common/param/iniparser.i: __/__/common/param/iniparser.c.i
@@ -618,7 +618,7 @@ __/__/common/param/iniparser.i: __/__/common/param/iniparser.c.i
 
 # target to preprocess a source file
 __/__/common/param/iniparser.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.i
 .PHONY : __/__/common/param/iniparser.c.i
 
 __/__/common/param/iniparser.s: __/__/common/param/iniparser.c.s
@@ -627,7 +627,7 @@ __/__/common/param/iniparser.s: __/__/common/param/iniparser.c.s
 
 # target to generate assembly for a file
 __/__/common/param/iniparser.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.s
 .PHONY : __/__/common/param/iniparser.c.s
 
 __/__/common/param/param.o: __/__/common/param/param.c.o
@@ -636,7 +636,7 @@ __/__/common/param/param.o: __/__/common/param/param.c.o
 
 # target to build an object file
 __/__/common/param/param.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o
 .PHONY : __/__/common/param/param.c.o
 
 __/__/common/param/param.i: __/__/common/param/param.c.i
@@ -645,7 +645,7 @@ __/__/common/param/param.i: __/__/common/param/param.c.i
 
 # target to preprocess a source file
 __/__/common/param/param.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.i
 .PHONY : __/__/common/param/param.c.i
 
 __/__/common/param/param.s: __/__/common/param/param.c.s
@@ -654,7 +654,7 @@ __/__/common/param/param.s: __/__/common/param/param.c.s
 
 # target to generate assembly for a file
 __/__/common/param/param.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.s
 .PHONY : __/__/common/param/param.c.s
 
 __/__/common/region_clip/region_clip.o: __/__/common/region_clip/region_clip.c.o
@@ -663,7 +663,7 @@ __/__/common/region_clip/region_clip.o: __/__/common/region_clip/region_clip.c.o
 
 # target to build an object file
 __/__/common/region_clip/region_clip.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o
 .PHONY : __/__/common/region_clip/region_clip.c.o
 
 __/__/common/region_clip/region_clip.i: __/__/common/region_clip/region_clip.c.i
@@ -672,7 +672,7 @@ __/__/common/region_clip/region_clip.i: __/__/common/region_clip/region_clip.c.i
 
 # target to preprocess a source file
 __/__/common/region_clip/region_clip.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.i
 .PHONY : __/__/common/region_clip/region_clip.c.i
 
 __/__/common/region_clip/region_clip.s: __/__/common/region_clip/region_clip.c.s
@@ -681,7 +681,7 @@ __/__/common/region_clip/region_clip.s: __/__/common/region_clip/region_clip.c.s
 
 # target to generate assembly for a file
 __/__/common/region_clip/region_clip.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.s
 .PHONY : __/__/common/region_clip/region_clip.c.s
 
 __/__/common/rockiva/rockiva.o: __/__/common/rockiva/rockiva.c.o
@@ -690,7 +690,7 @@ __/__/common/rockiva/rockiva.o: __/__/common/rockiva/rockiva.c.o
 
 # target to build an object file
 __/__/common/rockiva/rockiva.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o
 .PHONY : __/__/common/rockiva/rockiva.c.o
 
 __/__/common/rockiva/rockiva.i: __/__/common/rockiva/rockiva.c.i
@@ -699,7 +699,7 @@ __/__/common/rockiva/rockiva.i: __/__/common/rockiva/rockiva.c.i
 
 # target to preprocess a source file
 __/__/common/rockiva/rockiva.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.i
 .PHONY : __/__/common/rockiva/rockiva.c.i
 
 __/__/common/rockiva/rockiva.s: __/__/common/rockiva/rockiva.c.s
@@ -708,7 +708,7 @@ __/__/common/rockiva/rockiva.s: __/__/common/rockiva/rockiva.c.s
 
 # target to generate assembly for a file
 __/__/common/rockiva/rockiva.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.s
 .PHONY : __/__/common/rockiva/rockiva.c.s
 
 __/__/common/roi/roi.o: __/__/common/roi/roi.c.o
@@ -717,7 +717,7 @@ __/__/common/roi/roi.o: __/__/common/roi/roi.c.o
 
 # target to build an object file
 __/__/common/roi/roi.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o
 .PHONY : __/__/common/roi/roi.c.o
 
 __/__/common/roi/roi.i: __/__/common/roi/roi.c.i
@@ -726,7 +726,7 @@ __/__/common/roi/roi.i: __/__/common/roi/roi.c.i
 
 # target to preprocess a source file
 __/__/common/roi/roi.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.i
 .PHONY : __/__/common/roi/roi.c.i
 
 __/__/common/roi/roi.s: __/__/common/roi/roi.c.s
@@ -735,7 +735,7 @@ __/__/common/roi/roi.s: __/__/common/roi/roi.c.s
 
 # target to generate assembly for a file
 __/__/common/roi/roi.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.s
 .PHONY : __/__/common/roi/roi.c.s
 
 __/__/common/rtmp/rtmp.o: __/__/common/rtmp/rtmp.c.o
@@ -744,7 +744,7 @@ __/__/common/rtmp/rtmp.o: __/__/common/rtmp/rtmp.c.o
 
 # target to build an object file
 __/__/common/rtmp/rtmp.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o
 .PHONY : __/__/common/rtmp/rtmp.c.o
 
 __/__/common/rtmp/rtmp.i: __/__/common/rtmp/rtmp.c.i
@@ -753,7 +753,7 @@ __/__/common/rtmp/rtmp.i: __/__/common/rtmp/rtmp.c.i
 
 # target to preprocess a source file
 __/__/common/rtmp/rtmp.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.i
 .PHONY : __/__/common/rtmp/rtmp.c.i
 
 __/__/common/rtmp/rtmp.s: __/__/common/rtmp/rtmp.c.s
@@ -762,7 +762,7 @@ __/__/common/rtmp/rtmp.s: __/__/common/rtmp/rtmp.c.s
 
 # target to generate assembly for a file
 __/__/common/rtmp/rtmp.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.s
 .PHONY : __/__/common/rtmp/rtmp.c.s
 
 __/__/common/socket_server/server.o: __/__/common/socket_server/server.c.o
@@ -771,7 +771,7 @@ __/__/common/socket_server/server.o: __/__/common/socket_server/server.c.o
 
 # target to build an object file
 __/__/common/socket_server/server.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o
 .PHONY : __/__/common/socket_server/server.c.o
 
 __/__/common/socket_server/server.i: __/__/common/socket_server/server.c.i
@@ -780,7 +780,7 @@ __/__/common/socket_server/server.i: __/__/common/socket_server/server.c.i
 
 # target to preprocess a source file
 __/__/common/socket_server/server.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.i
 .PHONY : __/__/common/socket_server/server.c.i
 
 __/__/common/socket_server/server.s: __/__/common/socket_server/server.c.s
@@ -789,7 +789,7 @@ __/__/common/socket_server/server.s: __/__/common/socket_server/server.c.s
 
 # target to generate assembly for a file
 __/__/common/socket_server/server.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.s
 .PHONY : __/__/common/socket_server/server.c.s
 
 __/__/common/socket_server/socket.o: __/__/common/socket_server/socket.c.o
@@ -798,7 +798,7 @@ __/__/common/socket_server/socket.o: __/__/common/socket_server/socket.c.o
 
 # target to build an object file
 __/__/common/socket_server/socket.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o
 .PHONY : __/__/common/socket_server/socket.c.o
 
 __/__/common/socket_server/socket.i: __/__/common/socket_server/socket.c.i
@@ -807,7 +807,7 @@ __/__/common/socket_server/socket.i: __/__/common/socket_server/socket.c.i
 
 # target to preprocess a source file
 __/__/common/socket_server/socket.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.i
 .PHONY : __/__/common/socket_server/socket.c.i
 
 __/__/common/socket_server/socket.s: __/__/common/socket_server/socket.c.s
@@ -816,7 +816,7 @@ __/__/common/socket_server/socket.s: __/__/common/socket_server/socket.c.s
 
 # target to generate assembly for a file
 __/__/common/socket_server/socket.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.s
 .PHONY : __/__/common/socket_server/socket.c.s
 
 __/__/common/storage/cJSON.o: __/__/common/storage/cJSON.c.o
@@ -825,7 +825,7 @@ __/__/common/storage/cJSON.o: __/__/common/storage/cJSON.c.o
 
 # target to build an object file
 __/__/common/storage/cJSON.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o
 .PHONY : __/__/common/storage/cJSON.c.o
 
 __/__/common/storage/cJSON.i: __/__/common/storage/cJSON.c.i
@@ -834,7 +834,7 @@ __/__/common/storage/cJSON.i: __/__/common/storage/cJSON.c.i
 
 # target to preprocess a source file
 __/__/common/storage/cJSON.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.i
 .PHONY : __/__/common/storage/cJSON.c.i
 
 __/__/common/storage/cJSON.s: __/__/common/storage/cJSON.c.s
@@ -843,7 +843,7 @@ __/__/common/storage/cJSON.s: __/__/common/storage/cJSON.c.s
 
 # target to generate assembly for a file
 __/__/common/storage/cJSON.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.s
 .PHONY : __/__/common/storage/cJSON.c.s
 
 __/__/common/storage/storage.o: __/__/common/storage/storage.c.o
@@ -852,7 +852,7 @@ __/__/common/storage/storage.o: __/__/common/storage/storage.c.o
 
 # target to build an object file
 __/__/common/storage/storage.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o
 .PHONY : __/__/common/storage/storage.c.o
 
 __/__/common/storage/storage.i: __/__/common/storage/storage.c.i
@@ -861,7 +861,7 @@ __/__/common/storage/storage.i: __/__/common/storage/storage.c.i
 
 # target to preprocess a source file
 __/__/common/storage/storage.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.i
 .PHONY : __/__/common/storage/storage.c.i
 
 __/__/common/storage/storage.s: __/__/common/storage/storage.c.s
@@ -870,7 +870,7 @@ __/__/common/storage/storage.s: __/__/common/storage/storage.c.s
 
 # target to generate assembly for a file
 __/__/common/storage/storage.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.s
 .PHONY : __/__/common/storage/storage.c.s
 
 __/__/common/system/system.o: __/__/common/system/system.c.o
@@ -879,7 +879,7 @@ __/__/common/system/system.o: __/__/common/system/system.c.o
 
 # target to build an object file
 __/__/common/system/system.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o
 .PHONY : __/__/common/system/system.c.o
 
 __/__/common/system/system.i: __/__/common/system/system.c.i
@@ -888,7 +888,7 @@ __/__/common/system/system.i: __/__/common/system/system.c.i
 
 # target to preprocess a source file
 __/__/common/system/system.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.i
 .PHONY : __/__/common/system/system.c.i
 
 __/__/common/system/system.s: __/__/common/system/system.c.s
@@ -897,7 +897,7 @@ __/__/common/system/system.s: __/__/common/system/system.c.s
 
 # target to generate assembly for a file
 __/__/common/system/system.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.s
 .PHONY : __/__/common/system/system.c.s
 
 audio/audio.o: audio/audio.c.o
@@ -906,7 +906,7 @@ audio/audio.o: audio/audio.c.o
 
 # target to build an object file
 audio/audio.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o
 .PHONY : audio/audio.c.o
 
 audio/audio.i: audio/audio.c.i
@@ -915,7 +915,7 @@ audio/audio.i: audio/audio.c.i
 
 # target to preprocess a source file
 audio/audio.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.i
 .PHONY : audio/audio.c.i
 
 audio/audio.s: audio/audio.c.s
@@ -924,7 +924,7 @@ audio/audio.s: audio/audio.c.s
 
 # target to generate assembly for a file
 audio/audio.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.s
 .PHONY : audio/audio.c.s
 
 main.o: main.cc.o
@@ -933,7 +933,7 @@ main.o: main.cc.o
 
 # target to build an object file
 main.cc.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -942,7 +942,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -951,7 +951,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.s
 .PHONY : main.cc.s
 
 npu/npu.o: npu/npu.cc.o
@@ -960,7 +960,7 @@ npu/npu.o: npu/npu.cc.o
 
 # target to build an object file
 npu/npu.cc.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o
 .PHONY : npu/npu.cc.o
 
 npu/npu.i: npu/npu.cc.i
@@ -969,7 +969,7 @@ npu/npu.i: npu/npu.cc.i
 
 # target to preprocess a source file
 npu/npu.cc.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.i
 .PHONY : npu/npu.cc.i
 
 npu/npu.s: npu/npu.cc.s
@@ -978,7 +978,7 @@ npu/npu.s: npu/npu.cc.s
 
 # target to generate assembly for a file
 npu/npu.cc.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.s
 .PHONY : npu/npu.cc.s
 
 npu/postprocess.o: npu/postprocess.cc.o
@@ -987,7 +987,7 @@ npu/postprocess.o: npu/postprocess.cc.o
 
 # target to build an object file
 npu/postprocess.cc.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o
 .PHONY : npu/postprocess.cc.o
 
 npu/postprocess.i: npu/postprocess.cc.i
@@ -996,7 +996,7 @@ npu/postprocess.i: npu/postprocess.cc.i
 
 # target to preprocess a source file
 npu/postprocess.cc.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.i
 .PHONY : npu/postprocess.cc.i
 
 npu/postprocess.s: npu/postprocess.cc.s
@@ -1005,7 +1005,7 @@ npu/postprocess.s: npu/postprocess.cc.s
 
 # target to generate assembly for a file
 npu/postprocess.cc.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.s
 .PHONY : npu/postprocess.cc.s
 
 video/video.o: video/video.c.o
@@ -1014,7 +1014,7 @@ video/video.o: video/video.c.o
 
 # target to build an object file
 video/video.c.o:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o
 .PHONY : video/video.c.o
 
 video/video.i: video/video.c.i
@@ -1023,7 +1023,7 @@ video/video.i: video/video.c.i
 
 # target to preprocess a source file
 video/video.c.i:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.i
 .PHONY : video/video.c.i
 
 video/video.s: video/video.c.s
@@ -1032,7 +1032,7 @@ video/video.s: video/video.c.s
 
 # target to generate assembly for a file
 video/video.c.s:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(MAKE) -f src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.s
 .PHONY : video/video.c.s
 
 # Help Target
@@ -1155,6 +1155,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

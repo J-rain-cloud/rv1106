@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc
+CMAKE_SOURCE_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build
+CMAKE_BINARY_DIR = /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build
 
 # Include any dependencies generated for this target.
 include src/rv1106_ipc/CMakeFiles/rkipc.dir/depend.make
@@ -59,16 +59,16 @@ include src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o: ../src/rv1106_ipc/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rkipc.dir/main.cc.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rkipc.dir/main.cc.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/main.cc
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rkipc.dir/main.cc.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/main.cc > CMakeFiles/rkipc.dir/main.cc.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/main.cc > CMakeFiles/rkipc.dir/main.cc.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rkipc.dir/main.cc.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/main.cc -o CMakeFiles/rkipc.dir/main.cc.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/main.cc -o CMakeFiles/rkipc.dir/main.cc.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o.provides.build: src/rv1106_ipc/CMa
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o: ../src/rv1106_ipc/audio/audio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/audio/audio.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/audio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/audio/audio.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/audio.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/audio/audio.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/audio.c > CMakeFiles/rkipc.dir/audio/audio.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/audio.c > CMakeFiles/rkipc.dir/audio/audio.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/audio/audio.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/audio.c -o CMakeFiles/rkipc.dir/audio/audio.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/audio.c -o CMakeFiles/rkipc.dir/audio/audio.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o.requires:
 
@@ -107,16 +107,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/audio/audio.c.o.provides.build: src/rv1106_i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o: ../src/rv1106_ipc/video/video.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/video/video.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/video.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/video/video.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/video.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/video/video.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/video.c > CMakeFiles/rkipc.dir/video/video.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/video.c > CMakeFiles/rkipc.dir/video/video.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/video/video.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/video.c -o CMakeFiles/rkipc.dir/video/video.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/video.c -o CMakeFiles/rkipc.dir/video/video.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o.requires:
 
@@ -131,16 +131,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/video/video.c.o.provides.build: src/rv1106_i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/npu/npu.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rkipc.dir/npu/npu.cc.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/npu/npu.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rkipc.dir/npu/npu.cc.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/npu/npu.cc
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rkipc.dir/npu/npu.cc.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/npu/npu.cc > CMakeFiles/rkipc.dir/npu/npu.cc.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/npu/npu.cc > CMakeFiles/rkipc.dir/npu/npu.cc.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rkipc.dir/npu/npu.cc.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/npu/npu.cc -o CMakeFiles/rkipc.dir/npu/npu.cc.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/npu/npu.cc -o CMakeFiles/rkipc.dir/npu/npu.cc.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o.requires:
 
@@ -155,16 +155,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o.provides.build: src/rv1106_ipc/
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o: ../src/rv1106_ipc/npu/postprocess.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rkipc.dir/npu/postprocess.cc.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/npu/postprocess.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rkipc.dir/npu/postprocess.cc.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/npu/postprocess.cc
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rkipc.dir/npu/postprocess.cc.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/npu/postprocess.cc > CMakeFiles/rkipc.dir/npu/postprocess.cc.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/npu/postprocess.cc > CMakeFiles/rkipc.dir/npu/postprocess.cc.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rkipc.dir/npu/postprocess.cc.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/npu/postprocess.cc -o CMakeFiles/rkipc.dir/npu/postprocess.cc.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/npu/postprocess.cc -o CMakeFiles/rkipc.dir/npu/postprocess.cc.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o.requires:
 
@@ -179,16 +179,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o.provides.build: src/rv1
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o: ../common/isp/rv1106/isp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/isp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/isp.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/isp.c > CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/isp.c > CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/isp.c -o CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/isp.c -o CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o.requires:
 
@@ -203,16 +203,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/isp/rv1106/isp.c.o.provides.bui
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o: ../common/common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/common.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/common.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/common.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/common.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/common.c > CMakeFiles/rkipc.dir/__/__/common/common.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/common.c > CMakeFiles/rkipc.dir/__/__/common/common.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/common.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/common.c -o CMakeFiles/rkipc.dir/__/__/common/common.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/common.c -o CMakeFiles/rkipc.dir/__/__/common/common.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o.requires:
 
@@ -227,16 +227,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/common.c.o.provides.build: src/
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o: ../common/socket_server/server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/server.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/server.c > CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/server.c > CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/server.c -o CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/server.c -o CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o.requires:
 
@@ -251,16 +251,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/server.c.o.provid
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o: ../common/socket_server/socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.c > CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.c > CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.c -o CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.c -o CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o.requires:
 
@@ -275,16 +275,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/socket_server/socket.c.o.provid
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o: ../common/param/dictionary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.c > CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.c > CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.c -o CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.c -o CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o.requires:
 
@@ -299,16 +299,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/dictionary.c.o.provides.b
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o: ../common/param/iniparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.c > CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.c > CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.c -o CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.c -o CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o.requires:
 
@@ -323,16 +323,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/iniparser.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o: ../common/param/param.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/param/param.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/param.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/param/param.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/param.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/param/param.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/param.c > CMakeFiles/rkipc.dir/__/__/common/param/param.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/param.c > CMakeFiles/rkipc.dir/__/__/common/param/param.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/param/param.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/param.c -o CMakeFiles/rkipc.dir/__/__/common/param/param.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/param.c -o CMakeFiles/rkipc.dir/__/__/common/param/param.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o.requires:
 
@@ -347,16 +347,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/param/param.c.o.provides.build:
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o: ../common/system/system.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/system/system.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/system.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/system/system.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/system.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/system/system.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/system.c > CMakeFiles/rkipc.dir/__/__/common/system/system.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/system.c > CMakeFiles/rkipc.dir/__/__/common/system/system.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/system/system.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/system.c -o CMakeFiles/rkipc.dir/__/__/common/system/system.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/system.c -o CMakeFiles/rkipc.dir/__/__/common/system/system.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o.requires:
 
@@ -371,16 +371,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/system/system.c.o.provides.buil
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o: ../common/rtmp/rtmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rtmp/rtmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rtmp/rtmp.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rtmp/rtmp.c > CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rtmp/rtmp.c > CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rtmp/rtmp.c -o CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rtmp/rtmp.c -o CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o.requires:
 
@@ -395,16 +395,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rtmp/rtmp.c.o.provides.build: s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o: ../common/osd/bmp_reader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.c > CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.c > CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.c -o CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.c -o CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o.requires:
 
@@ -419,16 +419,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/bmp_reader.c.o.provides.bui
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o: ../common/osd/color_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.c > CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.c > CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.c -o CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.c -o CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o.requires:
 
@@ -443,16 +443,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/color_table.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o: ../common/osd/draw_paint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/draw_paint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/draw_paint.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/draw_paint.c > CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/draw_paint.c > CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/draw_paint.c -o CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/draw_paint.c -o CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o.requires:
 
@@ -467,16 +467,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/draw_paint.c.o.provides.bui
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o: ../common/osd/font_factory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.c > CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.c > CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.c -o CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.c -o CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o.requires:
 
@@ -491,16 +491,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/font_factory.c.o.provides.b
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o: ../common/osd/osd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd.c > CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd.c > CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd.c -o CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd.c -o CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o.requires:
 
@@ -515,16 +515,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/osd/osd.c.o.provides.build: src
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o: ../common/roi/roi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/roi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/roi.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/roi.c > CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/roi.c > CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/roi.c -o CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/roi.c -o CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o.requires:
 
@@ -539,16 +539,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/roi/roi.c.o.provides.build: src
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o: ../common/network/Hostapd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.c > CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.c > CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.c -o CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.c -o CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o.requires:
 
@@ -563,16 +563,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Hostapd.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o: ../common/network/RK_encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.c > CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.c > CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.c -o CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.c -o CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o.requires:
 
@@ -587,16 +587,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/RK_encode.c.o.provides.
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o: ../common/network/Rk_wifi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.c > CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.c > CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.c -o CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.c -o CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o.requires:
 
@@ -611,16 +611,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/Rk_wifi.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o: ../common/network/gbk_to_utf8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.c > CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.c > CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.c -o CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.c -o CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o.requires:
 
@@ -635,16 +635,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/gbk_to_utf8.c.o.provide
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o: ../common/network/network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/network.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/network.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/network.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.c > CMakeFiles/rkipc.dir/__/__/common/network/network.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.c > CMakeFiles/rkipc.dir/__/__/common/network/network.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/network.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.c -o CMakeFiles/rkipc.dir/__/__/common/network/network.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.c -o CMakeFiles/rkipc.dir/__/__/common/network/network.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o.requires:
 
@@ -659,16 +659,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/network.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o: ../common/network/utf8_to_gbk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.c > CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.c > CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.c -o CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.c -o CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o.requires:
 
@@ -683,16 +683,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utf8_to_gbk.c.o.provide
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o: ../common/network/utility.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/network/utility.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.c > CMakeFiles/rkipc.dir/__/__/common/network/utility.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.c > CMakeFiles/rkipc.dir/__/__/common/network/utility.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/network/utility.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.c -o CMakeFiles/rkipc.dir/__/__/common/network/utility.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.c -o CMakeFiles/rkipc.dir/__/__/common/network/utility.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o.requires:
 
@@ -707,16 +707,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/network/utility.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o: ../common/storage/cJSON.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.c > CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.c > CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.c -o CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.c -o CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o.requires:
 
@@ -731,16 +731,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/cJSON.c.o.provides.buil
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o: ../common/storage/storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/storage.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/storage.c > CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/storage.c > CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/storage.c -o CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/storage.c -o CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o.requires:
 
@@ -755,16 +755,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/storage/storage.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o: ../common/rockiva/rockiva.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva.c > CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva.c > CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva.c -o CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva.c -o CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o.requires:
 
@@ -779,16 +779,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/rockiva/rockiva.c.o.provides.bu
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o: ../common/event/event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/event/event.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/event/event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/event/event.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/event/event.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/event/event.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/event/event.c > CMakeFiles/rkipc.dir/__/__/common/event/event.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/event/event.c > CMakeFiles/rkipc.dir/__/__/common/event/event.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/event/event.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/event/event.c -o CMakeFiles/rkipc.dir/__/__/common/event/event.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/event/event.c -o CMakeFiles/rkipc.dir/__/__/common/event/event.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o.requires:
 
@@ -803,16 +803,16 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/event.c.o.provides.build:
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o: src/rv1106_ipc/CMakeFiles/rkipc.dir/flags.make
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o: ../common/region_clip/region_clip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/region_clip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/region_clip.c
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.i"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/region_clip.c > CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.i
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/region_clip.c > CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.i
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.s"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/region_clip.c -o CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.s
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/region_clip.c -o CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.s
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o.requires:
 
@@ -897,8 +897,8 @@ src/rv1106_ipc/rkipc: src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/event/eve
 src/rv1106_ipc/rkipc: src/rv1106_ipc/CMakeFiles/rkipc.dir/__/__/common/region_clip/region_clip.c.o
 src/rv1106_ipc/rkipc: src/rv1106_ipc/CMakeFiles/rkipc.dir/build.make
 src/rv1106_ipc/rkipc: src/rv1106_ipc/CMakeFiles/rkipc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable rkipc"
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rkipc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable rkipc"
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rkipc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/rv1106_ipc/CMakeFiles/rkipc.dir/build: src/rv1106_ipc/rkipc
@@ -941,10 +941,10 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/requires: src/rv1106_ipc/CMakeFiles/rkipc.di
 .PHONY : src/rv1106_ipc/CMakeFiles/rkipc.dir/requires
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/clean:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc && $(CMAKE_COMMAND) -P CMakeFiles/rkipc.dir/cmake_clean.cmake
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc && $(CMAKE_COMMAND) -P CMakeFiles/rkipc.dir/cmake_clean.cmake
 .PHONY : src/rv1106_ipc/CMakeFiles/rkipc.dir/clean
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/depend:
-	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc/CMakeFiles/rkipc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc/CMakeFiles/rkipc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/rv1106_ipc/CMakeFiles/rkipc.dir/depend
 

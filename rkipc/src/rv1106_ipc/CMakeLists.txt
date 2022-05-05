@@ -71,7 +71,7 @@ link_directories(${PROJECT_SOURCE_DIR}/lib/arm-rockchip830-linux-uclibcgnueabihf
 link_directories(/home/ubuntu/rknn/rv1106/media/out/lib)
 link_directories(/home/ubuntu/rknn/rv1106/rknpu2/runtime/RV1106/Linux/librknn_api/armhf)
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,--allow-shlib-undefined")
-set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wl,--allow-shlib-undefined")
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wl,--allow-shlib-undefined")
 
 add_definitions(-DISP_HW_V30)
 #add_definitions(-g -ggdb)

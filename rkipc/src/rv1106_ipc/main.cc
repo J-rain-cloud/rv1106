@@ -30,9 +30,11 @@ bool g_npu_run = true;
 bool g_recv_data = false;
 bool g_process_end = true;
 pthread_mutex_t g_network_lock = PTHREAD_MUTEX_INITIALIZER;
-unsigned char *g_input_data = NULL;
+void *g_input_data = NULL;
 int g_img_width = 0;
 int g_img_height = 0;
+PIXEL_FORMAT_E enPixelFormat; 
+VIDEO_FORMAT_E enVideoFormat;
 
 static int g_main_run_ = 1;
 

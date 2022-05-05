@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3535c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3535c.dir/build.make CMakeFiles/cmTC_3535c.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_3535c.dir/testCCompiler.c.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_3535c.dir/testCCompiler.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3535c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3535c.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_3535c.dir/testCCompiler.c.o  -o cmTC_3535c 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_b19fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b19fc.dir/build.make CMakeFiles/cmTC_b19fc.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b19fc.dir/testCCompiler.c.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_b19fc.dir/testCCompiler.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b19fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b19fc.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_b19fc.dir/testCCompiler.c.o  -o cmTC_b19fc 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_78010/fast"
-/usr/bin/make -f CMakeFiles/cmTC_78010.dir/build.make CMakeFiles/cmTC_78010.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_78010
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78010.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc     -v CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o  -o cmTC_78010 
+Run Build Command:"/usr/bin/make" "cmTC_7c0b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c0b8.dir/build.make CMakeFiles/cmTC_7c0b8.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7c0b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c0b8.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc     -v CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o  -o cmTC_7c0b8 
 Using built-in specs.
 COLLECT_GCC=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc
 COLLECT_LTO_WRAPPER=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 8.3.0 (crosstool-NG 1.24.0) 
 COMPILER_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/
 LIBRARY_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78010'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
- /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0FKFMT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_78010 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78010'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c0b8'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+ /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyIZFkN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_7c0b8 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c0b8'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_78010/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_78010.dir/build.make CMakeFiles/cmTC_78010.dir/build]
-  ignore line: [make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_78010]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78010.dir/link.txt --verbose=1]
-  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc     -v CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o  -o cmTC_78010 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7c0b8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7c0b8.dir/build.make CMakeFiles/cmTC_7c0b8.dir/build]
+  ignore line: [make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc    -o CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7c0b8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c0b8.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc     -v CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o  -o cmTC_7c0b8 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
   ignore line: [COMPILER_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78010'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4']
-  link line: [ /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0FKFMT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_78010 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c0b8'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4']
+  link line: [ /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyIZFkN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_7c0b8 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc0FKFMT.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyIZFkN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_78010] ==> ignore
+    arg [cmTC_7c0b8] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib] ==> dir [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib]
     arg [-L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib]
     arg [-L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_78010.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7c0b8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -140,17 +140,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8047/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8047.dir/build.make CMakeFiles/cmTC_c8047.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_c8047.dir/feature_tests.c.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_c8047.dir/feature_tests.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c8047
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8047.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_c8047.dir/feature_tests.c.o  -o cmTC_c8047 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_562c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_562c9.dir/build.make CMakeFiles/cmTC_562c9.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_562c9.dir/feature_tests.c.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_562c9.dir/feature_tests.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_562c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_562c9.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_562c9.dir/feature_tests.c.o  -o cmTC_562c9 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -160,17 +160,17 @@ make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/C
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf3da/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf3da.dir/build.make CMakeFiles/cmTC_bf3da.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_bf3da.dir/feature_tests.c.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_bf3da.dir/feature_tests.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bf3da
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf3da.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_bf3da.dir/feature_tests.c.o  -o cmTC_bf3da 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_e1903/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1903.dir/build.make CMakeFiles/cmTC_e1903.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e1903.dir/feature_tests.c.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_e1903.dir/feature_tests.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e1903
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1903.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_e1903.dir/feature_tests.c.o  -o cmTC_e1903 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -180,17 +180,17 @@ make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/C
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d98f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d98f4.dir/build.make CMakeFiles/cmTC_d98f4.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_d98f4.dir/feature_tests.c.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_d98f4.dir/feature_tests.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d98f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d98f4.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_d98f4.dir/feature_tests.c.o  -o cmTC_d98f4 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_015a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_015a8.dir/build.make CMakeFiles/cmTC_015a8.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_015a8.dir/feature_tests.c.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_015a8.dir/feature_tests.c.o   -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_015a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_015a8.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc      CMakeFiles/cmTC_015a8.dir/feature_tests.c.o  -o cmTC_015a8 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,30 +198,30 @@ make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/C
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1936c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1936c.dir/build.make CMakeFiles/cmTC_1936c.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_1936c.dir/testCXXCompiler.cxx.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_1936c.dir/testCXXCompiler.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1936c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1936c.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_1936c.dir/testCXXCompiler.cxx.o  -o cmTC_1936c 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_18048/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18048.dir/build.make CMakeFiles/cmTC_18048.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_18048.dir/testCXXCompiler.cxx.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_18048.dir/testCXXCompiler.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_18048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18048.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_18048.dir/testCXXCompiler.cxx.o  -o cmTC_18048 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ccad7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ccad7.dir/build.make CMakeFiles/cmTC_ccad7.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_ccad7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccad7.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++      -v CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ccad7 
+Run Build Command:"/usr/bin/make" "cmTC_35674/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35674.dir/build.make CMakeFiles/cmTC_35674.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_35674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35674.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++      -v CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_35674 
 Using built-in specs.
 COLLECT_GCC=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++
 COLLECT_LTO_WRAPPER=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper
@@ -231,24 +231,24 @@ Thread model: posix
 gcc version 8.3.0 (crosstool-NG 1.24.0) 
 COMPILER_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/
 LIBRARY_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccad7' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
- /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cco58kAf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_ccad7 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccad7' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35674' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+ /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc19FHUm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_35674 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35674' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4'
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ccad7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ccad7.dir/build.make CMakeFiles/cmTC_ccad7.dir/build]
-  ignore line: [make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_ccad7]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccad7.dir/link.txt --verbose=1]
-  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++      -v CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ccad7 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_35674/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_35674.dir/build.make CMakeFiles/cmTC_35674.dir/build]
+  ignore line: [make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++     -o CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_35674]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35674.dir/link.txt --verbose=1]
+  ignore line: [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++      -v CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_35674 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper]
@@ -258,13 +258,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
   ignore line: [COMPILER_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib/:/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccad7' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4']
-  link line: [ /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cco58kAf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_ccad7 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35674' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+neon-vfpv4']
+  link line: [ /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2 -plugin /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc19FHUm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_35674 /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0 -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtend.o /home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../libexec/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cco58kAf.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc19FHUm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -278,7 +278,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ccad7] ==> ignore
+    arg [cmTC_35674] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o] ==> ignore
     arg [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/crtbegin.o] ==> ignore
@@ -287,7 +287,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib] ==> dir [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/../../../../arm-rockchip830-linux-uclibcgnueabihf/lib]
     arg [-L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib]
     arg [-L/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/../arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_ccad7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_35674.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -310,17 +310,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51d97/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51d97.dir/build.make CMakeFiles/cmTC_51d97.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_51d97.dir/feature_tests.cxx.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_51d97.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_51d97
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d97.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_51d97.dir/feature_tests.cxx.o  -o cmTC_51d97 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_0bde7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0bde7.dir/build.make CMakeFiles/cmTC_0bde7.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_0bde7.dir/feature_tests.cxx.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_0bde7.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0bde7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bde7.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_0bde7.dir/feature_tests.cxx.o  -o cmTC_0bde7 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -383,17 +383,17 @@ make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/C
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_390d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_390d3.dir/build.make CMakeFiles/cmTC_390d3.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_390d3.dir/feature_tests.cxx.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_390d3.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_390d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_390d3.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_390d3.dir/feature_tests.cxx.o  -o cmTC_390d3 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_15e41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15e41.dir/build.make CMakeFiles/cmTC_15e41.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_15e41.dir/feature_tests.cxx.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_15e41.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_15e41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e41.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_15e41.dir/feature_tests.cxx.o  -o cmTC_15e41 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -456,17 +456,17 @@ make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/C
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79100/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79100.dir/build.make CMakeFiles/cmTC_79100.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_79100.dir/feature_tests.cxx.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_79100.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_79100
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79100.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_79100.dir/feature_tests.cxx.o  -o cmTC_79100 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_1a126/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a126.dir/build.make CMakeFiles/cmTC_1a126.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1a126.dir/feature_tests.cxx.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_1a126.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a126.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_1a126.dir/feature_tests.cxx.o  -o cmTC_1a126 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -529,17 +529,17 @@ make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/C
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b7f6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b7f6d.dir/build.make CMakeFiles/cmTC_b7f6d.dir/build
-make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_b7f6d.dir/feature_tests.cxx.o
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_b7f6d.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b7f6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7f6d.dir/link.txt --verbose=1
-/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_b7f6d.dir/feature_tests.cxx.o  -o cmTC_b7f6d 
-make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_50b08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50b08.dir/build.make CMakeFiles/cmTC_50b08.dir/build
+make[1]: 进入目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_50b08.dir/feature_tests.cxx.o
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_50b08.dir/feature_tests.cxx.o -c /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_50b08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b08.dir/link.txt --verbose=1
+/home/ubuntu/rknn/rv1106/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++       CMakeFiles/cmTC_50b08.dir/feature_tests.cxx.o  -o cmTC_50b08 
+make[1]: 离开目录“/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc
+# Install script for directory: /home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rkipc"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/build/src/rv1106_ipc/rkipc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/build/src/rv1106_ipc/rkipc")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rkipc" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rkipc")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rkipc"
-         OLD_RPATH "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf:/home/ubuntu/rknn/rv1106/media/out/lib:/home/ubuntu/rknn/rv1106/rknpu2/runtime/RV1106/Linux/librknn_api/armhf:"
+         OLD_RPATH "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf:/home/ubuntu/rknn/rv1106/media/out/lib:/home/ubuntu/rknn/rv1106/rknpu2/runtime/RV1106/Linux/librknn_api/armhf:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rkipc")
@@ -58,58 +58,58 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/rkipc-300w.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/rkipc-300w.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/rkipc-400w.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/rkipc-400w.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/rkipc-500w.ini")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/rkipc-500w.ini")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/RkLunch.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/RkLunch.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/RkLunch-stop.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/RkLunch-stop.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/image.bmp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/image.bmp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/simsun_en.ttf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/simsun_en.ttf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libwpa_client.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libwpa_client.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/librkmuxer.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/librkmuxer.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/librkfsmk.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/librkfsmk.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libz.so.1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libz.so.1")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libz.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libz.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libiconv.so.2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libiconv.so.2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libiconv.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/lib/arm-rockchip830-linux-uclibcgnueabihf/libiconv.so")
 endif()
 

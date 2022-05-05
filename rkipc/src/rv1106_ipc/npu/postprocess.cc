@@ -21,7 +21,7 @@
 #include <set>
 #include "postprocess.h"
 #include <stdint.h>
-#define LABEL_NALE_TXT_PATH "./model/coco_80_labels_list.txt"
+#define LABEL_NALE_TXT_PATH "/mnt/sdcard/rknn/rknn_yolov5_demo_Linux/model/coco_80_labels_list.txt"
 
 static char *labels[OBJ_CLASS_NUM];
 

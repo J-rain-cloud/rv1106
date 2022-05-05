@@ -695,18 +695,21 @@ src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o: ../src/rv1106_ipc/npu/npu.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o: ../src/rv1106_ipc/npu/postprocess.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/main.cc.o: /home/ubuntu/rknn/rv1106/rknpu2/runtime/RV1106/Linux/librknn_api/include/rknn_api.h
 
+src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rga/RgaApi.h
+src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rga/drmrga.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rga/im2d.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rga/im2d_type.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rga/im2d_version.h
+src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rga/rga.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rk_comm_mb.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rk_comm_video.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rk_common.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rk_defines.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rk_errno.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/include/rk_type.h
-src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/npu/./npu.h
-src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/npu/./postprocess.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/npu/npu.cc
+src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/npu/npu.h
+src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: ../src/rv1106_ipc/npu/postprocess.h
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/npu.cc.o: /home/ubuntu/rknn/rv1106/rknpu2/runtime/RV1106/Linux/librknn_api/include/rknn_api.h
 
 src/rv1106_ipc/CMakeFiles/rkipc.dir/npu/postprocess.cc.o: ../src/rv1106_ipc/npu/postprocess.cc

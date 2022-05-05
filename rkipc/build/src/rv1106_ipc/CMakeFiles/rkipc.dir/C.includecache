@@ -2422,11 +2422,11 @@ rga/im2d.h
 rga/rga.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/common.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/common.c
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/common.h
 errno.h
 -
 getopt.h
@@ -2458,25 +2458,25 @@ time.h
 unistd.h
 -
 iniparser.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/iniparser.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/iniparser.h
 log.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/log.h
 param.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/event/event.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/event/event.c
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/event/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/event/common.h
 rockiva.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/event/rockiva.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/event/rockiva.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/isp.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/isp.c
 isp.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/isp.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/isp.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/common.h
 video.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/video.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/video.h
 rk_aiq_user_api2_acgc.h
 -
 rk_aiq_user_api2_camgroup.h
@@ -2486,15 +2486,15 @@ rk_aiq_user_api2_imgproc.h
 rk_aiq_user_api2_sysctl.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/isp/rv1106/isp.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/isp/rv1106/isp.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/log.h
 minilogger/log.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/minilogger/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/minilogger/log.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.c
 Hostapd.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.h
 Rk_softap.h
 -
 error.h
@@ -2516,59 +2516,59 @@ stdint.h
 stdlib.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.c
 RK_encode.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.h
 gbk_to_utf8.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.h
 utf8_to_gbk.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.h
 stdio.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.c
 network.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.h
 Hostapd.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Hostapd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Hostapd.h
 RK_encode.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/RK_encode.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/RK_encode.h
 Rk_wifi.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.h
 slog.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/slog.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/slog.h
 utility.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.h
 poll.h
 -
 wpa_ctrl.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.c
 gbk_to_utf8.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.h
 string.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/gbk_to_utf8.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/gbk_to_utf8.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.c
 network.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.h
 Rk_wifi.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/Rk_wifi.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/Rk_wifi.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/common.h
 linux/if.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/network.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/network.h
 net/if.h
 -
 arpa/inet.h
@@ -2614,19 +2614,19 @@ sys/types.h
 unistd.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/slog.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/slog.h
 syslog.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.c
 utf8_to_gbk.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.h
 stdio.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utf8_to_gbk.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utf8_to_gbk.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.c
 assert.h
 -
 errno.h
@@ -2650,63 +2650,63 @@ sys/wait.h
 unistd.h
 -
 slog.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/slog.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/slog.h
 utility.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/network/utility.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/network/utility.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.c
 bmp_reader.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.h
 stdint.h
 -
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/common.h
 osd_common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd_common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd_common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.c
 color_table.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/draw_paint.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/draw_paint.c
 draw_paint.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/draw_paint.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/draw_paint.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/draw_paint.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/draw_paint.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/common.h
 osd_common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd_common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd_common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.c
 font_factory.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.h
 ft2build.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/ft2build.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/ft2build.h
 color_table.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/color_table.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/color_table.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/common.h
 osd_common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd_common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd_common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd.c
 osd.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/common.h
 font_factory.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.h
 osd_common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd_common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd_common.h
 iconv.h
 -
 stdio.h
@@ -2716,21 +2716,21 @@ stdlib.h
 string.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd.h
 bmp_reader.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/bmp_reader.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/bmp_reader.h
 osd_common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd_common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd_common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/osd_common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/osd_common.h
 font_factory.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/osd/font_factory.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/osd/font_factory.h
 wchar.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.c
 dictionary.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.h
 stdio.h
 -
 stdlib.h
@@ -2740,7 +2740,7 @@ string.h
 unistd.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.h
 stdio.h
 -
 stdlib.h
@@ -2750,15 +2750,15 @@ string.h
 unistd.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.c
 iniparser.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.h
 ctype.h
 -
 stdarg.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.h
 stdio.h
 -
 stdlib.h
@@ -2766,51 +2766,51 @@ stdlib.h
 string.h
 -
 dictionary.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/dictionary.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/dictionary.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/param.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/param.c
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/common.h
 iniparser.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/iniparser.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/iniparser.h
 log.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/param/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/param/log.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/region_clip.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/region_clip.c
 region_clip.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/region_clip.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/region_clip.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/region_clip/region_clip.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/region_clip/region_clip.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva.c
 rockiva.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva.h
 rockiva/rockiva_ba_api.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rockiva/rockiva/rockiva_ba_api.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rockiva/rockiva/rockiva_ba_api.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/roi.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/roi.c
 roi.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/roi.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/roi.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/common.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/roi/roi.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/roi/roi.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rtmp/rtmp.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rtmp/rtmp.c
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rtmp/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rtmp/common.h
 rkmuxer.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/rtmp/rkmuxer.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/rtmp/rkmuxer.h
 sys/time.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/server.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/server.c
 assert.h
 -
 fcntl.h
@@ -2834,31 +2834,31 @@ sys/un.h
 unistd.h
 -
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/common.h
 event.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/event.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/event.h
 log.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/log.h
 network.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/network.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/network.h
 socket.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.h
 storage.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/storage.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/storage.h
 system.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/system.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/system.h
 isp.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/isp.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/isp.h
 osd.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/osd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/osd.h
 region_clip.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/region_clip.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/region_clip.h
 roi.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/roi.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/roi.h
 video.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/video.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/video.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.c
 assert.h
 -
 errno.h
@@ -2892,13 +2892,13 @@ time.h
 unistd.h
 -
 socket.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/socket_server/socket.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/socket_server/socket.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.c
 cJSON.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.h
 ctype.h
 -
 float.h
@@ -2914,19 +2914,19 @@ stdlib.h
 string.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.h
 stddef.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/rkfsmk.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/rkfsmk.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/rkmuxer.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/rkmuxer.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/storage.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/storage.c
 storage.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/storage.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/storage.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/storage.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/storage.h
 dirent.h
 -
 fcntl.h
@@ -2954,31 +2954,31 @@ sys/uio.h
 sys/vfs.h
 -
 cJSON.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/cJSON.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/cJSON.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/common.h
 rkfsmk.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/rkfsmk.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/rkfsmk.h
 rkmuxer.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/storage/rkmuxer.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/storage/rkmuxer.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/system.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/system.c
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/common.h
 log.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/log.h
 param.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/common/system/param.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/common/system/param.h
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/audio.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/audio.c
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/common.h
 log.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/log.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/log.h
 rtsp_demo.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/rtsp_demo.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/rtsp_demo.h
 storage.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/audio/storage.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/audio/storage.h
 rk_debug.h
 -
 rk_mpi_aenc.h
@@ -2990,33 +2990,33 @@ rk_mpi_mb.h
 rk_mpi_sys.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/video.c
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/video.c
 video.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/video.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/video.h
 rockiva.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/rockiva.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/rockiva.h
 rk_mpi_vo.h
 -
 
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/video.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/video.h
 common.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/common.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/common.h
 isp.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/isp.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/isp.h
 osd.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/osd.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/osd.h
 region_clip.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/region_clip.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/region_clip.h
 rockiva.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/rockiva.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/rockiva.h
 rtmp.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/rtmp.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/rtmp.h
 rtsp_demo.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/rtsp_demo.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/rtsp_demo.h
 storage.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/storage.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/storage.h
 rk_mpi_mmz.h
-/home/ubuntu/rknn/rv1106/project/app/rkipc/rkipc/src/rv1106_ipc/video/rk_mpi_mmz.h
+/home/ubuntu/rknn/rv1106/project/app/rkipc/git_repo/rkipc/src/rv1106_ipc/video/rk_mpi_mmz.h
 rk_debug.h
 -
 rk_mpi_mb.h

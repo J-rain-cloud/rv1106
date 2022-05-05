@@ -12,11 +12,10 @@ option(COMPILE_FOR_RK3588 "compile for rk3588 ipc" OFF)
 option(COMPILE_FOR_RK3588_MULTI_IPC "compile for rk3588 multi-ipc" OFF)
 
 
-if(RKIPC_CROSS_COMPILE)
+set(RKIPC_CROSS_COMPILE arm-rockchip830-linux-uclibcgnueabihf)
 message(STATUS "CROSS COMPILE TOOL: ${RKIPC_CROSS_COMPILE}")
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-rpath-link,${PROJECT_SOURCE_DIR}/lib/${RKIPC_CROSS_COMPILE}")
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wl,-rpath-link,${PROJECT_SOURCE_DIR}/lib/${RKIPC_CROSS_COMPILE}")
-endif()
 
 if(COMPILE_FOR_RV1106_IPC)
   add_subdirectory(src/rv1106_ipc)
