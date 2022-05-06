@@ -36,16 +36,6 @@
 #define RTMP_URL_1 "rtmp://127.0.0.1:1935/live/substream"
 #define RTMP_URL_2 "rtmp://127.0.0.1:1935/live/thirdstream"
 
-extern bool g_npu_run;
-extern bool g_recv_data;
-extern bool g_process_end;
-extern pthread_mutex_t g_network_lock;
-extern void *g_input_data;
-extern int g_img_width;
-extern int g_img_height;
-extern PIXEL_FORMAT_E enPixelFormat;
-extern VIDEO_FORMAT_E enVideoFormat;
-
 pthread_mutex_t g_rtsp_mutex = PTHREAD_MUTEX_INITIALIZER;
 rtsp_demo_handle g_rtsplive = NULL;
 rtsp_session_handle g_rtsp_session_0, g_rtsp_session_1, g_rtsp_session_2;
@@ -205,28 +195,22 @@ static void *rkipc_get_vi_1(void *arg) {
 		ret = RK_MPI_VI_GetChnFrame(pipe_id_, VIDEO_PIPE_1, &stViFrame, 1000);
 		if (ret == RK_SUCCESS) {
 
-			printf("--------confirm whether get the g_network_lock--------\n");
-			pthread_mutex_lock(&g_network_lock);
-			g_recv_data = true;
-			g_process_end = false;
-			g_input_data = RK_MPI_MB_Handle2VirAddr(stViFrame.stVFrame.pMbBlk);
-			g_img_width = stViFrame.stVFrame.u32Width;
-			g_img_height = stViFrame.stVFrame.u32Height;
-			enPixelFormat = stViFrame.stVFrame.enPixelFormat;
-			enVideoFormat = stViFrame.stVFrame.enVideoFormat;
-			printf("--------input image frame's width=%d, height=%d--------\n", g_img_width, g_img_height);
-			printf("--------input image pixelFormat=%0x, videoFormat=%d--------\n", enPixelFormat, enVideoFormat);
-			// npu process
+			void *data = RK_MPI_MB_Handle2VirAddr(stViFrame.stVFrame.pMbBlk);
+			int fd = RK_MPI_MB_Handle2Fd(stViFrame.stVFrame.pMbBlk);
 
-			/*int fd = RK_MPI_MB_Handle2Fd(stViFrame.stVFrame.pMbBlk);
-			LOG_DEBUG("data %p, fd is %d, loop:%d pts:%" PRId64 " ms\n", g_input_data, fd,
+			int width = stViFrame.stVFrame.u32Width;
+			int height = stViFrame.stVFrame.u32Height;
+			int format = stViFrame.stVFrame.enPixelFormat;
+			recv_frame(data, width, height, format, fd);
+			
+			LOG_DEBUG("data %p, fd is %d, loop:%d pts:%" PRId64 " ms\n", data, fd,
 			loopCount, stViFrame.stVFrame.u64PTS / 1000);
 			//behavior detect
-			ret = rkipc_rknn_object_get(&ba_result);
+			//ret = rkipc_rknn_object_get(&ba_result);
 			if ((!ret && ba_result.objNum) ||
 			    ((ret == -1) && (rkipc_get_curren_time_ms() - last_ba_result_time < 300))) {
 			    // LOG_INFO("ret is %d, ba_result.objNum is %d\n", ret, ba_result.objNum);
-			    handle = importbuffer_fd(fd, &param);
+			    /*handle = importbuffer_fd(fd, &param);
 			    src = wrapbuffer_handle_t(handle, stViFrame.stVFrame.u32Width,
 			                              stViFrame.stVFrame.u32Height, stViFrame.stVFrame.u32Width,
 			                              stViFrame.stVFrame.u32Height, RK_FORMAT_YCbCr_420_SP);
@@ -268,16 +252,9 @@ static void *rkipc_get_vi_1(void *arg) {
 			        //          object->firstTrigger.ruleID,
 			        //          object->firstTrigger.triggerType);
 			    }
-			    releasebuffer_handle(handle);
-			}*/
-			// send venc
-			pthread_mutex_unlock(&g_network_lock);
-			printf("--------input data trans success--------\n");
-			// process end, send frame to VENC1 channel, data will be tx automatically to rtsp
-			while (!g_process_end) {
-				;
+			    releasebuffer_handle(handle);*/
 			}
-			printf("--------npu process over, start to send frame to VENC_1\n--------");
+			// send venc
 			ret = RK_MPI_VENC_SendFrame(VIDEO_PIPE_1, &stViFrame, 1000);
 			if (ret)
 				LOG_ERROR("RK_MPI_VENC_SendFrame timeout %x\n", ret);

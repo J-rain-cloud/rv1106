@@ -4,23 +4,25 @@
 #include "RgaApi.h"
 #include <vector>
 
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
 static network_info_t network;
 static rknn_tensor_type input_type = RKNN_TENSOR_UINT8;
 static rknn_tensor_format input_layout = RKNN_TENSOR_NHWC;
 static rknn_context ctx = 0;
 static int ret = 0;
 
-extern bool g_npu_run;
-extern bool g_recv_data;
-extern bool g_process_end;
-extern pthread_mutex_t g_network_lock;
-extern void *g_input_data;
-extern int g_img_width;
-extern int g_img_height;
-extern PIXEL_FORMAT_E enPixelFormat;
-extern VIDEO_FORMAT_E enVideoFormat;
+static bool g_npu_run = true;
+static bool g_recv_data = false;
+static bool g_process_end = true;
+static pthread_mutex_t g_network_lock = PTHREAD_MUTEX_INITIALIZER;
+static void *g_input_data = NULL;
+static int g_fd;
+static int g_img_width = 0;
+static int g_img_height = 0;
+static int enPixelFormat;
 
-pthread_t g_npu_proc;
+static pthread_t g_npu_proc;
 
 /*-------------------------------------------
                   Functions
@@ -65,12 +67,26 @@ static int NC1HWC2_to_NCHW(const int8_t *src, int8_t *dst, uint32_t *dims, int c
 	return 0;
 }
 
+static int storage_pic(void * src)
+{
+	FILE *fp;
+	fp = fopen("input_picture", "wb+");
+	if(fwrite(src, g_img_width*g_img_height*1.5, 1, fp) <= 0)
+	{
+		printf("--------output image failed--------\n");
+		return -1;
+	}
+	printf("--------output image success--------\n");
+	fclose(fp);
+	return 0;
+}
+
 // network init
 int network_init(char *model_path) {
 	// load model
 	ret = rknn_init(&ctx, model_path, 0, 0, NULL);
 	if (ret < 0) {
-		printf("rknn_init fail! ret=%d\n", ret);
+		printf("--------rknn_init fail! ret=%d--------\n", ret);
 		return -1;
 	}
 
@@ -158,56 +174,16 @@ int network_init(char *model_path) {
 		network.height = network.input_attrs[0].dims[2];
 	}
 
-	//缩放尺度
-	network.scale_w = (float)network.width / g_img_width;
-	network.scale_h = (float)network.height / g_img_height;
-
 	//配置rga图像缓冲区的参数
-	network.param = (im_handle_param_t *)malloc(sizeof(im_handle_param_t));
-	memset(network.param, 0, sizeof(im_handle_param_t));
-	network.param->width = network.input_attrs[0].w_stride + network.width;
-	network.param->height = network.height;
-	network.param->format = enPixelFormat;
+	network.param.width = network.width;
+	network.param.height = network.height;
+	network.param.format = RK_FORMAT_RGB_888;
 	printf("--------configure param over--------\n");
 
 	//模型输入图片缓存
 	network.buf = malloc(sizeof(unsigned char) * network.width * network.height * network.channel);
 	memset(network.buf, 0,
-		       sizeof(unsigned char) * (network.height * network.width * network.channel));
-
-	// 分配输入内存
-	network.input_mems[0] = rknn_create_mem(ctx, network.input_attrs[0].size_with_stride);
-	if (network.input_mems[0] == NULL) {
-		printf("--------allocate input memory failed--------\n");
-		return -1;
-	}
-
-	// 分配输出内存
-	for (uint32_t i = 0; i < network.io_num.n_output; ++i) {
-		network.output_mems[i] = rknn_create_mem(ctx, network.output_attrs[i].size_with_stride);
-		if (network.output_mems[i] == NULL) {
-			printf("--------allocate output memory failed--------\n");
-			return -1;
-		}
-	}
-
-	// 设置输入的结构体信息
-	ret = rknn_set_io_mem(ctx, network.input_mems[0], &network.input_attrs[0]);
-	if (ret < 0) {
-		printf("input_memory: rknn_set_io_mem fail! ret=%d\n", ret);
-		return -1;
-	}
-
-	// 设置输出的结构体信息
-	for (uint32_t i = 0; i < network.io_num.n_output; ++i) {
-		// set output memory and attribute
-		ret = rknn_set_io_mem(ctx, network.output_mems[i], &network.output_attrs[i]);
-		if (ret < 0) {
-			printf("output_memory: rknn_set_io_mem fail! ret=%d\n", ret);
-			return -1;
-		}
-	}
-	printf("--------set in_out put struct info over--------\n");
+	       sizeof(unsigned char) * (network.height * network.width * network.channel));
 
 	// 开启NPU处理线程
 	pthread_create(&g_npu_proc, NULL, npu_process, (void *)&ctx);
@@ -228,22 +204,97 @@ void network_exit() {
 
 	if (network.buf)
 		free(network.buf);
-	if (network.param)
-		free(network.param);
-	if (network.input_attrs)
-		free(network.input_attrs);
-	if (network.output_attrs)
-		free(network.output_attrs);
 
-	if (network.input_mems)
+	if (network.input_mems[0]) {
 		rknn_destroy_mem(ctx, network.input_mems[0]);
-	if (network.output_mems) {
+	}
+	if (network.output_mems[0]) {
 		rknn_destroy_mem(ctx, network.output_mems[0]);
 		rknn_destroy_mem(ctx, network.output_mems[1]);
 		rknn_destroy_mem(ctx, network.output_mems[2]);
 	}
 
+	if (g_input_data)
+		free(g_input_data);
+
 	printf("--------network deinit over--------\n");
+}
+
+static int get_rga_format(int src_format) {
+	int dst_format;
+	switch (src_format) {
+	case RK_FMT_YUV420SP:
+		dst_format = RK_FORMAT_YCbCr_420_SP;
+		break;
+	case RK_FMT_RGB888:
+		dst_format = RK_FORMAT_RGB_888;
+		break;
+	case RK_FMT_BGR888:
+		dst_format = RK_FORMAT_BGR_888;
+		break;
+	default:
+		dst_format = RK_FORMAT_RGB_888;
+		break;
+	}
+	return dst_format;
+}
+
+static char *get_rga_format_string(int format, char *str) {
+	switch (format) {
+	case RK_FORMAT_YCbCr_420_SP:
+		strcpy(str, "RK_FORMAT_YCbCr_420_SP");
+		break;
+	case RK_FORMAT_RGB_888:
+		strcpy(str, "RK_FORMAT_RGB_888");
+		break;
+	case RK_FORMAT_BGR_888:
+		strcpy(str, "RK_FORMAT_BGR_888");
+		break;
+	default:
+		strcpy(str, "none");
+		break;
+	}
+
+	return str;
+}
+
+void recv_frame(void *ptr, int width, int height, int format, int fd) {
+	char str[128];
+	memset(str, 0, 128);
+
+	pthread_mutex_lock(&g_network_lock);
+	if (g_process_end == false) {
+		pthread_mutex_unlock(&g_network_lock);
+		printf("-------- npu processing --------\n");
+		return;
+	}
+
+	g_recv_data = true;
+	g_process_end = false;
+
+	g_img_width = width;
+	g_img_height = height;
+	g_fd = fd;
+	//保存图片
+	ret = storage_pic(ptr);
+	if(ret != 0 )
+	{
+		printf("--------output image failed--------\n");
+		return ;
+	}
+	//分配输入图片缓存
+	g_input_data = malloc(width * height * network.channel/2);
+	memset(g_input_data, 0, width * height * network.channel/2);
+	memcpy(g_input_data, ptr, (width * height * network.channel)/2);
+
+	printf("--------input image frame's width=%d, height=%d--------\n", g_img_width, g_img_height);
+	printf("--------input image format=%s\n", get_rga_format_string(get_rga_format(format), str));
+
+	// resize(ptr, width, height, get_rga_format(format),
+	//	network.buf, network.width, network.height, RK_FORMAT_RGB_888, 0);
+
+	pthread_mutex_unlock(&g_network_lock);
+	return;
 }
 
 // npu process
@@ -262,53 +313,85 @@ void *npu_process(void *arg) {
 		}
 		//有数据则进行下一步
 		printf("--------recv data success! will process it--------\n");
-		// 拷贝一份原始数据
-		// memcpy(network.buf, (void *)g_input_data, network.height * network.width * network.channel);
+		
+		
+		//缩放尺度
+		network.scale_w = (float)network.width / g_img_width;
+		network.scale_h = (float)network.height / g_img_height;
+		printf("--------model_width=%d, model_height=%d, input_width=%d, input_height=%d--------\n",
+		       network.width, network.height, g_img_width, g_img_height);
 
 		//映射虚拟地址到RGA驱动内部
-		rga_buffer_handle_t src_rga_buffer_handle;
-		im_handle_param_t * param = (im_handle_param_t *)malloc(sizeof(im_handle_param_t));
-		param->width = g_img_width;
-		param->height = g_img_height;
-		param->format = enPixelFormat;
-		src_rga_buffer_handle = importbuffer_virtualaddr(g_input_data, param);
+		/*rga_buffer_handle_t src_rga_buffer_handle;
+		im_handle_param_t param;
+		param.width = g_img_width;
+		param.height = g_img_height;
+		param.format = RK_FORMAT_YCbCr_420_SP;
+		//src_rga_buffer_handle = importbuffer_virtualaddr(g_input_data, &param);
+		src_rga_buffer_handle = importbuffer_fd(g_fd, &param);
 		rga_buffer_handle_t dst_rga_buffer_handle;
-		dst_rga_buffer_handle = importbuffer_virtualaddr(network.buf, network.param);
-		printf("-------- reflect virtual address over--------\n");
+		dst_rga_buffer_handle = importbuffer_virtualaddr(network.buf, &network.param);
+		printf("-------- reflect virtual address over--------\n");*/
 
-		// 转换格式为标准的 rga_buffer_t
 		rga_buffer_t src_rga_handle;
-		src_rga_handle = wrapbuffer_handle(src_rga_buffer_handle, g_img_width, g_img_height,
-		                                   0, 0, enPixelFormat);
 		rga_buffer_t dst_rga_handle;
-		dst_rga_handle = wrapbuffer_handle(dst_rga_buffer_handle, network.width, network.height,
-		                                   0, 0, enPixelFormat);
-		printf("-------- transfer image params to rga_buffer_t over--------\n");
+		im_rect src_rect;
+    	im_rect dst_rect;
+    	memset(&src_rect, 0, sizeof(src_rect));
+    	memset(&dst_rect, 0, sizeof(dst_rect));
+    	memset(&src_rga_handle, 0, sizeof(src_rga_handle));
+    	memset(&dst_rga_handle, 0, sizeof(dst_rga_handle));
+		// 转换格式为标准的 rga_buffer_t
+		printf("--------g_img_width=%d, g_img_height=%d--------\n",g_img_width, g_img_height);
+		
+		src_rga_handle = wrapbuffer_virtualaddr(g_input_data, g_img_width, g_img_height,
+		                                   RK_FORMAT_YCbCr_420_SP); 
+		dst_rga_handle = wrapbuffer_virtualaddr(network.buf, network.width, network.height,
+		                                   RK_FORMAT_RGB_888); 
 
+		printf("-------- transfer image params to rga_buffer_t over--------\n");
+		
+		ret = imcheck(src_rga_handle, dst_rga_handle, src_rect, dst_rect);
+    	if (IM_STATUS_NOERROR != ret)
+    	{
+        	printf("%d, check error! %s", __LINE__, imStrError((IM_STATUS)ret));
+        	pthread_exit((void *)-1);
+    	}
+		printf("--------check success--------\n");
 		//将图片resize为模型需要的尺寸640*640
-		ret = imresize(src_rga_handle, dst_rga_handle, network.scale_w, network.scale_h,
-		               INTER_NEAREST, 1);
-		printf("-------- width=%d,\twstride=%d,\tprt=%p,\theight=%d,\thstride=%d--------\n", src_rga_handle.width,
-		       src_rga_handle.wstride, src_rga_handle.vir_addr, src_rga_handle.height, src_rga_handle.hstride);
-		printf("-------- width=%d,\twstride=%d,\tprt=%p,\theight=%d,\thstride=%d--------\n", dst_rga_handle.width,
-		       dst_rga_handle.wstride, dst_rga_handle.vir_addr, dst_rga_handle.height, dst_rga_handle.hstride);
-		if (ret != IM_STATUS_SUCCESS) {
-			printf("--------resize image failed--------\n");
+		printf("--------scale_w=%f, scale_h=%f--------\n", network.scale_w, network.scale_h);
+		//ret = imresize(src_rga_handle, dst_rga_handle);
+		printf("-------- width=%d,\twstride=%d,\tprt=%p,\theight=%d,\thstride=%d--------\n",
+		       src_rga_handle.width, src_rga_handle.wstride, src_rga_handle.vir_addr,
+		       src_rga_handle.height, src_rga_handle.hstride);
+		printf("-------- width=%d,\twstride=%d,\tprt=%p,\theight=%d,\thstride=%d--------\n",
+		       dst_rga_handle.width, dst_rga_handle.wstride, dst_rga_handle.vir_addr,
+		       dst_rga_handle.height, dst_rga_handle.hstride);
+		/*if (ret != IM_STATUS_SUCCESS) {
+			printf("-------- resize image failed--------ret=%d\n", ret);
+			pthread_exit((void *)-1);
+		}*/
+		printf("-------- resize image over--------\n");
+
+
+		// 分配输入内存
+		network.input_mems[0] = rknn_create_mem(*ctx, network.input_attrs[0].size_with_stride);
+		if (network.input_mems[0] == NULL) {
+			printf("--------allocate input memory failed--------\n");
 			pthread_exit((void *)-1);
 		}
-		printf("--------resize image over--------\n");
 
-		// 将输入数据拷贝到已经分配的内存上
+		//将输入数据拷贝到已经分配的内存上
 		int w_stride = network.input_attrs[0].w_stride;
 
 		printf("--------copy data to input memory--------\n");
-		if (w_stride == 0) //如果没有像素补齐
+		if (w_stride == network.width) //如果没有像素补齐
 		{
 			printf("--------0 pixel fill--------\n");
 			// 内存拷贝 dst src size=H*W*C
 			if (network.input_mems[0]->virt_addr) {
 				printf("--------memory copy--------\n");
-				memcpy(network.input_mems[0]->virt_addr, dst_rga_handle.vir_addr,
+				memcpy(network.input_mems[0]->virt_addr, network.buf,
 				       network.width * network.height * network.channel);
 			} else
 				printf("--------address error--------\n");
@@ -317,11 +400,11 @@ void *npu_process(void *arg) {
 		{
 			printf("--------pixel fill--------\n");
 			// copy from src to dst with w_stride
-			uint8_t *src_ptr = (uint8_t *)dst_rga_handle.vir_addr;
+			uint8_t *src_ptr = (uint8_t *)network.buf;
 			uint8_t *dst_ptr = (uint8_t *)network.input_mems[0]->virt_addr;
 			// width-channel elements
 			int src_wc_elems = network.width * network.channel;
-			int dst_wc_elems = (w_stride + network.width) * network.channel;
+			int dst_wc_elems = w_stride * network.channel;
 			for (int h = 0; h < network.height; ++h) {
 				memcpy(dst_ptr, src_ptr, src_wc_elems);
 				src_ptr += src_wc_elems;
@@ -329,6 +412,35 @@ void *npu_process(void *arg) {
 			}
 		}
 		printf("--------copy over--------\n");
+
+
+		// 分配输出内存
+		for (uint32_t i = 0; i < network.io_num.n_output; ++i) {
+			network.output_mems[i] = rknn_create_mem(*ctx, network.output_attrs[i].size_with_stride);
+			if (network.output_mems[i] == NULL) {
+				printf("--------allocate output memory failed--------\n");
+				pthread_exit((void *)-1);
+			}
+		}
+
+		// 设置输入的结构体信息
+		ret = rknn_set_io_mem(*ctx, network.input_mems[0], &network.input_attrs[0]);
+		if (ret < 0) {
+			printf("input_memory: rknn_set_io_mem fail! ret=%d\n", ret);
+			pthread_exit((void *)-1);
+		}
+
+		// 设置输出的结构体信息
+		for (uint32_t i = 0; i < network.io_num.n_output; ++i) {
+			// set output memory and attribute
+			ret = rknn_set_io_mem(*ctx, network.output_mems[i], &network.output_attrs[i]);
+			if (ret < 0) {
+				printf("output_memory: rknn_set_io_mem fail! ret=%d\n", ret);
+				pthread_exit((void *)-1);
+			}
+		}
+		printf("--------set in_out put struct info over--------\n");
+
 
 		// Run
 		printf("--------model start run--------\n");
@@ -414,7 +526,7 @@ void *npu_process(void *arg) {
 		network.image_box.height = network.detect_result_group.results[0].box.bottom -
 		                           network.detect_result_group.results[0].box.top;
 		printf("--------configure rga box over--------\n");
-		printf("-------------------box info------------------->>");
+		printf("-------------------box info------------------->>\n");
 		printf("x=%d,\ty=%d,\t width=%d,\t height=%d\n", network.image_box.x, network.image_box.y,
 		       network.image_box.width, network.image_box.height);
 
@@ -425,20 +537,19 @@ void *npu_process(void *arg) {
 		printf("--------box draw over--------\n");
 
 		// 释放rga
+		/*
 		ret = releasebuffer_handle(src_rga_buffer_handle);
 		if (ret == IM_STATUS_SUCCESS)
 			printf("--------release src rga success!--------\n");
 
 		ret = releasebuffer_handle(dst_rga_buffer_handle);
 		if (ret == IM_STATUS_SUCCESS)
-			printf("--------release dst success!--------\n");
+			printf("--------release dst success!--------\n");*/
 
 		g_recv_data = false;
 		g_process_end = true;
 		// 释放锁
 		pthread_mutex_unlock(&g_network_lock);
-		free(param);
-		g_recv_data = false;
 	} while (g_npu_run);
 
 	printf("--------npu_process thread exit--------\n");
@@ -447,6 +558,8 @@ void *npu_process(void *arg) {
 
 int resize(void *src_ptr, int src_width, int src_height, int src_fmt, void *dst_ptr, int dst_width,
            int dst_height, int dst_fmt, int rotation) {
+
+	printf("start---------------->>");
 	rga_info_t src, dst;
 	static bool is_init = false;
 
@@ -454,7 +567,7 @@ int resize(void *src_ptr, int src_width, int src_height, int src_fmt, void *dst_
 		is_init = true;
 		c_RkRgaInit();
 	}
-
+	printf("---------rga init------------\n");
 	memset(&src, 0, sizeof(rga_info_t));
 	src.fd = -1;
 	src.virAddr = src_ptr;
@@ -468,12 +581,12 @@ int resize(void *src_ptr, int src_width, int src_height, int src_fmt, void *dst_
 	dst.nn.nn_flag = 0;
 
 	// 裁切中间区域
-	int src_s = std::min(src_width, src_height);
+	int src_s = MIN(src_width, src_height);
 	int src_xoffset = (src_width - src_s) / 2;
 	int src_yoffset = (src_height - src_s) / 2;
 	rga_set_rect(&src.rect, src_xoffset, src_yoffset, src_s, src_s, src_width, src_height, src_fmt);
 
-	int dst_s = std::min(dst_width, dst_height);
+	int dst_s = MIN(dst_width, dst_height);
 	int dst_xoffset = (dst_width - dst_s) / 2;
 	int dst_yoffset = (dst_height - dst_s) / 2;
 	rga_set_rect(&dst.rect, dst_xoffset, dst_yoffset, dst_s, dst_s, dst_width, dst_height, dst_fmt);
@@ -481,6 +594,8 @@ int resize(void *src_ptr, int src_width, int src_height, int src_fmt, void *dst_
 		printf("%s: rga fail\n", __func__);
 		return -1;
 	}
+
+	printf("end---------------->>");
 
 	return 0;
 }

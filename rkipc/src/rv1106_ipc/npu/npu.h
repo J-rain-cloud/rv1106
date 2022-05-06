@@ -37,7 +37,7 @@ typedef struct _network{
 
     rknn_tensor_mem *input_mems[1] = {NULL};                    //输入缓存
     rknn_tensor_mem *output_mems[3] = {NULL};                   //输出缓存
-    im_handle_param_t *param;                                   // rga待导入图像缓冲区的参数
+    im_handle_param_t param;                                   // rga待导入图像缓冲区的参数
 
     rknn_custom_string custom_string;                           //自定义字符串
     
@@ -57,7 +57,10 @@ typedef struct _network{
 
 
 int network_init(char * model_path);
-void network_exit(rknn_context *ctx);
+void network_exit();
+void recv_frame(void *ptr, int width, int height, int format, int fd);
+int resize(void *src_ptr, int src_width, int src_height, int src_fmt, void *dst_ptr, int dst_width,
+           int dst_height, int dst_fmt, int rotation);
 
 void * npu_process(void *data);
 

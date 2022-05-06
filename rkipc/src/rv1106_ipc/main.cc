@@ -26,16 +26,6 @@ enum { LOG_ERROR, LOG_WARN, LOG_INFO, LOG_DEBUG };
 int enable_minilog = 0;
 int rkipc_log_level = LOG_INFO;
 
-bool g_npu_run = true;
-bool g_recv_data = false;
-bool g_process_end = true;
-pthread_mutex_t g_network_lock = PTHREAD_MUTEX_INITIALIZER;
-void *g_input_data = NULL;
-int g_img_width = 0;
-int g_img_height = 0;
-PIXEL_FORMAT_E enPixelFormat; 
-VIDEO_FORMAT_E enVideoFormat;
-
 static int g_main_run_ = 1;
 
 char *rkipc_ini_path_ = NULL;
@@ -108,7 +98,7 @@ int main(int argc, char **argv) {
 	printf("model_path:%s\n", model_path);
 	if(network_init(model_path) != RKNN_SUCC)
 	{
-		printf("model init failed!\n");
+		printf("--------model init failed!--------\n");
 		exit(-1);
 	}
 
@@ -140,6 +130,7 @@ int main(int argc, char **argv) {
 	}
 
 	// deinit
+	network_exit();
 	rk_storage_deinit();
 	rkipc_server_deinit();
 	rk_system_deinit();
